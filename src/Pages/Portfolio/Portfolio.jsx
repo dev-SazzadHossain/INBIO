@@ -32,7 +32,7 @@ const Portfolio = () => {
       <h4 className=" text-lg text-center font-semibold  tracking-wide text-violet-600">
         VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
       </h4>
-      <h1 className=" text-6xl font-bold tracking-wide hover:tracking-wider transition-all duration-300 pt-3 pb-10  text-center">
+      <h1 className="lg:text-6xl md:text-6xl sm:text-4xl text-4xl font-bold tracking-wide hover:tracking-wider transition-all duration-300 pt-3 pb-10  text-center">
         My Portfolio
       </h1>
 

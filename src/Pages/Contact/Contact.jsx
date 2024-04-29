@@ -87,13 +87,13 @@ const Contact = () => {
       <h5 className=" text-lg text-center font-semibold  tracking-wide text-violet-600">
         CONTACT
       </h5>
-      <h1 className=" text-6xl font-bold tracking-wide hover:tracking-wider transition-all duration-300 pt-3 pb-10  text-center">
+      <h1 className="lg:text-6xl md:text-6xl sm:text-4xl text-4xl font-bold tracking-wide hover:tracking-wider transition-all duration-300 pt-3 pb-10  text-center">
         Contact With Me
       </h1>
 
       {/* contact cord */}
       <div className="lg:flex md:flex justify-between items-center gap-5">
-        <div className=" w-full lg:h-[600px]  md:h-[630px] h-[600px] shadow-md p-5 rounded-md shadow-violet-500/50 group/pic lg:mb-0 md:mb-0  mb-5">
+        <div className=" w-full lg:h-[600px]  md:h-[630px] h-[630px] shadow-md p-5 rounded-md shadow-violet-500/50 group/pic lg:mb-0 md:mb-0  mb-5">
           <div className=" w-full h-[250px] rounded-lg overflow-hidden shadow-lg group-hover/pic:shadow-black/60 duration-300 transition-all">
             <img
               className=" w-full object-cover h-full rounded-md group-hover/pic:scale-110 transition-all duration-300"
@@ -159,7 +159,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <div className=" w-full lg:h-[600px]  md:h-[630px] h-[600px] shadow-md p-5 rounded-md shadow-violet-500/50 group/pic">
+        <div className=" w-full lg:h-[600px]  md:h-[630px] h-[630px] shadow-md p-5 rounded-md shadow-violet-500/50 group/pic">
           <form ref={form} className="w-full" onSubmit={handelSubmit}>
             <div className="flex justify-between items-center gap-3">
               <div className="w-full">

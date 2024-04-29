@@ -28,7 +28,14 @@ const Exprience = () => {
                 <li cl>Position: React Developer</li>
                 <li>Duration: 11 Months (Year 2022, 11th Month)</li>
 
-                <p className=" leading-5 text-justify tracking-tight pt-3">
+                <p
+                  style={{
+                    lineHeight: "1.5",
+                    wordSpacing: "-3px",
+                    letterSpacing: "0.5px",
+                  }}
+                  className="leading-5 text-justify tracking-tight pt-3"
+                >
                   As a React Developer at EPD Group, I played a key role in
                   developing and maintaining front-end components for various
                   web applications. Collaborating closely with cross-functional
@@ -63,7 +70,14 @@ const Exprience = () => {
                 <li cl>Position: React Developer</li>
                 <li>Duration: Since 2023</li>
 
-                <p className=" leading-5 text-justify tracking-tight pt-3">
+                <p
+                  style={{
+                    lineHeight: "1.5",
+                    wordSpacing: "-3px",
+                    letterSpacing: "0.5px",
+                  }}
+                  className="leading-5 text-justify tracking-tight pt-3"
+                >
                   As a React Developer at Sohoj IT, I am responsible for
                   spearheading the development and optimization of front-end
                   applications that align with our clients' needs and
