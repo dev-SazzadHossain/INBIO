@@ -7,6 +7,7 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { SiRedux } from "react-icons/si";
+import { Link } from 'react-router-dom';
 
 const HeroLeft = () => {
     return (
@@ -38,16 +39,18 @@ const HeroLeft = () => {
                  <div  className=' w-full flex flex-col justify-center items-center lg:items-start md:items-start'>
                     <h2 className=' text-lg font-semibold tracking-wide py-2'>FIND WITH ME</h2>
                 <div className=' flex items-center gap-5'>
-                <div className=' w-[50px] h-[50px] bg-gradient-to-r from-violet-500 to-pink-500 rounded-lg text-white flex items-center justify-center group cursor-pointer transition-all duration-300 shadow-lg shadow-violet-500/55 hover:shadow-red-500/55'>
+               <Link to="https://www.facebook.com/profile.php?id=100011271842054" target='_blank'>
+               <div className=' w-[50px] h-[50px] bg-gradient-to-r from-violet-500 to-pink-500 rounded-lg text-white flex items-center justify-center group cursor-pointer transition-all duration-300 shadow-lg shadow-violet-500/55 hover:shadow-red-500/55'>
                         <FaFacebookF size="22px" className=' group-hover:scale-125 scale-100 transition-all duration-300 '/>
 
-                    </div>
+                    </div></Link>
                     <div className=' w-[50px] h-[50px] bg-gradient-to-r from-violet-500 to-pink-500 rounded-lg text-white flex items-center justify-center group cursor-pointer transition-all duration-300 shadow-lg shadow-violet-500/55 hover:shadow-red-500/55'>
                         <FaTwitter size="22px" className=' group-hover:scale-125 scale-100 transition-all duration-300 '/>
                     </div>
-                    <div className=' w-[50px] h-[50px] bg-gradient-to-r from-violet-500 to-pink-500 rounded-lg text-white flex items-center justify-center group cursor-pointer transition-all duration-300 shadow-lg shadow-violet-500/55 hover:shadow-red-500/55'>
+                  <Link to="https://www.linkedin.com/in/md-sazzad-hossain-b11a31254/" target='_blank'>
+                  <div className=' w-[50px] h-[50px] bg-gradient-to-r from-violet-500 to-pink-500 rounded-lg text-white flex items-center justify-center group cursor-pointer transition-all duration-300 shadow-lg shadow-violet-500/55 hover:shadow-red-500/55'>
                         <FaLinkedinIn size="22px" className=' group-hover:scale-125 scale-100 transition-all duration-300 '/>
-                    </div>
+                    </div></Link>
                 </div>
 
                  </div>
