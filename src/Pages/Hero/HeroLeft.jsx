@@ -17,7 +17,10 @@ const HeroLeft = () => {
       </h4>
       <div className="py-5">
         <h1 className="lg:text-6xl md:text-6xl sm:text-3xl text-xl font-bold  font-Poppins">
-          Hi, I’m <span className="text-violet-500 font-Poppins">Sazzad</span>
+          Hi, I’m{" "}
+          <span className="text-violet-500 font-Poppins">
+            Sukar Tongchongya
+          </span>
         </h1>
       </div>
       <div>

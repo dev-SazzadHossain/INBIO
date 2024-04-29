@@ -13,7 +13,7 @@ const Footer = () => {
           />
         </div>
         <h4 className="text-center pt-5 font-bold tracking-tight text-gray-500">
-          © 2022. All rights, Made by sazzad
+          © 2022. All rights, Made by Sukar Tongchongya
         </h4>
       </div>
     </div>
