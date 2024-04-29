@@ -113,10 +113,10 @@ const Contact = () => {
 
           <ul>
             <li className="text-sm font-bold text-gray-700 tracking-wide">
-              Phone : 01606106834
+              Phone : 01634211352
             </li>
             <li className="text-sm font-bold text-gray-700 tracking-wide">
-              Email : dev.sazzadhossain24@gmail.com
+              Email : sukartangchangya@gmail.com
             </li>
           </ul>
 
