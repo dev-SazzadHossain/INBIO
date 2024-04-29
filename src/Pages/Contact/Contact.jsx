@@ -102,7 +102,7 @@ const Contact = () => {
             />
           </div>
           <h2 className="pt-8 text-xl font-semibold tracking-tight">
-            MD: SAZZAD HOSSAIN
+            Sukar Tongchongya
           </h2>
 
           <h5 className="text-lg font-bold text-violet-500">React Developer</h5>
