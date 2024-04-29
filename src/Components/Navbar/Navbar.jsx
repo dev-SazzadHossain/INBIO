@@ -112,7 +112,9 @@ const Navbar = () => {
               </li>
 
               <div className="lg:block flex justify-center items-center lg:pt-0 pt-5">
-                <a href={cv} download="Sazzad_Resume">
+                <a
+                //  href={cv} download="Sazzad_Resume"
+                >
                   <button className=" group border-none outline-none lg:text-lg md:text-lg sm:text-lg text-[14px] tracking-normal hover:tracking-wider transition-all duration-300  hover:text-white px-5 py-1 bg-gradient-to-r from-violet-500  to-pink-500 text-white rounded-lg flex justify-center items-center group/arrowOpacity">
                     Download Resume{" "}
                     <span className="group-hover:translate-x-2 transition-all duration-300    group-hover/arrowOpacity:opacity-100 opacity-0">
@@ -217,7 +219,9 @@ const Navbar = () => {
                     </li>
 
                     <div className="lg:block flex justify-center items-center lg:pt-0 pt-5">
-                      <a href={cv} download="Sazzad_Resume">
+                      <a
+                      //  href={cv} download="Sazzad_Resume"
+                      >
                         <button className=" group border-none outline-none lg:text-lg md:text-lg sm:text-lg text-[14px] tracking-normal hover:tracking-wider transition-all duration-300  hover:text-white px-5 py-1 bg-gradient-to-r from-violet-500  to-pink-500 text-white rounded-lg flex justify-center items-center group/arrowOpacity">
                           Download Resume{" "}
                           <span className="group-hover:translate-x-2 transition-all duration-300    group-hover/arrowOpacity:opacity-100 opacity-0">

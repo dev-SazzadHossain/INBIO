@@ -127,8 +127,8 @@ const Contact = () => {
             </h2>
             <div className=" flex items-center gap-5">
               <Link
-                to="https://www.facebook.com/profile.php?id=100011271842054"
-                target="_blank"
+              // to="https://www.facebook.com/profile.php?id=100011271842054"
+              // target="_blank"
               >
                 {" "}
                 <div className=" w-[50px] h-[50px] bg-gradient-to-r from-violet-500 to-pink-500 rounded-lg text-white flex items-center justify-center group cursor-pointer transition-all duration-300 shadow-lg shadow-violet-500/55 hover:shadow-red-500/55">
@@ -145,8 +145,8 @@ const Contact = () => {
                 />
               </div>
               <Link
-                to="https://www.linkedin.com/in/md-sazzad-hossain-b11a31254/"
-                target="_blank"
+              // to="https://www.linkedin.com/in/md-sazzad-hossain-b11a31254/"
+              // target="_blank"
               >
                 {" "}
                 <div className=" w-[50px] h-[50px] bg-gradient-to-r from-violet-500 to-pink-500 rounded-lg text-white flex items-center justify-center group cursor-pointer transition-all duration-300 shadow-lg shadow-violet-500/55 hover:shadow-red-500/55">
