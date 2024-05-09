@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BiCollapse } from "react-icons/bi";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaWebflow } from "react-icons/fa6";
 import { MdOutlineDeveloperMode } from "react-icons/md";
 import { FaRegFilePdf } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 const Features = () => {
   return (
@@ -12,25 +13,42 @@ const Features = () => {
         <h2 className=" text-xl font-semibold  tracking-wide text-violet-600">
           Features
         </h2>
-        <span className="lg:text-6xl md:text-6xl sm:text-4xl text-4xl font-bold tracking-wide hover:tracking-wider transition-all duration-300 pt-3 pb-10 inline-block">
+        <motion.span
+          whileHover={{ letterSpacing: "3px" }}
+          transition={{ type: "spring", stiffness: 320 }}
+          className="lg:text-6xl md:text-6xl sm:text-4xl text-4xl font-bold tracking-wide pt-3 pb-10 inline-block"
+        >
           What I Do
-        </span>
+        </motion.span>
 
         <div className=" grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-5">
           {/* section1 */}
-          <div className=" w-full h-[300px] shadow-lg shadow-violet-500 rounded-lg overflow-hidden group transition-all duration-300 cursor-pointer group ">
+          <div
+            style={{
+              transformStyle: "preserve-3d",
+            }}
+            className=" w-full h-[300px] shadow-lg shadow-violet-500 rounded-lg overflow-hidden group transition-all duration-300 cursor-pointer group "
+          >
             <div className=" w-[90%] mx-auto py-3 translate-y-3 group-hover:translate-y-0 transition-all duration-300">
               <div className=" w-[40px] h-[40px] bg-gradient-to-r from-violet-500 to-pink-500 text-white rounded-lg flex justify-center items-center my-3">
                 <BiCollapse size="33px" />
               </div>
               <h3 className="py-3 text-2xl font-semibold">Ui Design</h3>
-              <p className=" leading-5 text-justify font-medium text-gray-600">
+              <motion.p
+                initial={{
+                  textShadow: "3px 3px 3px rgba(000, 0, 0, 0.5)",
+                }}
+                className=" leading-5 text-justify font-medium text-gray-500"
+              >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
                 ipsum at magnam aut, totam provident! Dicta, blanditiis possimus
                 cumque debitis cupiditate autem quos veniam nam commodi esse
                 quaerat, voluptatem quisquam.
-              </p>
-              <div className="py-5  opacity-0 group-hover:opacity-100 transition-all duration-300">
+              </motion.p>
+              <div
+                id="arrow"
+                className="py-5  opacity-0 group-hover:opacity-100 transition-all duration-300"
+              >
                 <FaArrowRightLong size="33px" color="#f4f4f4" />
               </div>
             </div>
@@ -49,7 +67,10 @@ const Features = () => {
                 cumque debitis cupiditate autem quos veniam nam commodi esse
                 quaerat, voluptatem quisquam.
               </p>
-              <div className="py-5  opacity-0 group-hover:opacity-100 transition-all duration-300">
+              <div
+                id="arrow"
+                className="py-5  opacity-0 group-hover:opacity-100 transition-all duration-300"
+              >
                 <FaArrowRightLong size="33px" color="#f4f4f4" />
               </div>
             </div>

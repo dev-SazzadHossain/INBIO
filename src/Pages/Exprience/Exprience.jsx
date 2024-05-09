@@ -25,7 +25,7 @@ const Exprience = () => {
                 Epd Group
               </div>
               <ul className=" text-start text-lg leading-6">
-                <li cl>Position: React Developer</li>
+                <li cl>Position: Mern Stack Developer</li>
                 <li>Duration: 11 Months (Year 2022, 11th Month)</li>
 
                 <p
