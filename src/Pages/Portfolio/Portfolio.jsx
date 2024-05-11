@@ -9,20 +9,65 @@ const projectList = [
   {
     image: project1,
     projectName: "Pos Leading Page",
+    used: ["react", "react-router-dom", "mui"],
     liveLink: "https://charming-sunburst-a47016.netlify.app/",
     githubLink: "https://github.com/dev-SazzadHossain/landing_page",
   },
   {
     image: project2,
     projectName: "Epd Group",
+    used: ["react", "react-router-dom", "tailwind css", "node js", "mongodb"],
     liveLink: "https://superlative-puppy-456eec.netlify.app/",
     githubLink: "https://github.com/dev-SazzadHossain/epd-solution-website",
   },
   {
     image: project3,
     projectName: "Doctor Popy",
+    used: ["react", "react-router-dom", "tailwind css", "raw javascript"],
     liveLink: "https://dev-sazzadhossain.github.io/Doctor_Dev/index.html",
     githubLink: "https://github.com/reovilsayed/doctorPopy",
+  },
+  {
+    image: "",
+    projectName: "Job Founder",
+    liveLink: "https://github.com/dev-SazzadHossain/backend_jobFounder",
+    used: [
+      "react",
+      "react-router-dom",
+      "tailwind css",
+      "redux",
+      "redux toolkit",
+      "node js",
+      "express js",
+      "multer",
+      "bcrypt",
+      "cludinary",
+      "mongoose",
+      "mongodb",
+      "nodemailer",
+    ],
+    githubLink: "https://github.com/dev-SazzadHossain/backend_jobFounder",
+  },
+  {
+    image: "",
+    projectName: "Ecommerce Dashboard",
+    liveLink: "https://github.com/dev-SazzadHossain/ecommerce_backend",
+    used: [
+      "react",
+      "react-router-dom",
+      "tailwind css",
+      "redux",
+      "redux toolkit",
+      "node js",
+      "express js",
+      "multer",
+      "bcrypt",
+      "cludinary",
+      "mongoose",
+      "mongodb",
+      "nodemailer",
+    ],
+    githubLink: "https://github.com/dev-SazzadHossain/ecommerce_backend",
   },
 ];
 
@@ -40,14 +85,14 @@ const Portfolio = () => {
       <div>
         <div className=" grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-5">
           {projectList?.map((project, index) => {
-            const { image, projectName, liveLink, githubLink } = project;
+            const { image, projectName, liveLink, githubLink, used } = project;
             return (
               <>
                 {" "}
                 {/* project 1 */}
                 <div
                   key={index}
-                  className=" w-full h-[400px]  shadow-lg shadow-violet-500 rounded-lg overflow-hidden group transition-all duration-300 px-5 hover:bg-gray-900 hover:shadow-gray-600 cursor-pointer"
+                  className=" w-full py-5 shadow-lg shadow-violet-500 rounded-lg overflow-hidden group transition-all duration-300 px-5 hover:bg-gray-900 hover:shadow-gray-600 cursor-pointer"
                 >
                   <div className="w-[100%] h-[160px] mx-auto  overflow-hidden my-5 rounded-lg group-hover:shadow-lg group-hover:shadow-pink-400 transition-all duration-300   ">
                     <img
@@ -57,11 +102,16 @@ const Portfolio = () => {
                     />
                   </div>
 
-                  <h3 className=" h-[60px] text-lg font-semibold tracking-wide text-justify">
+                  <h3 className=" pb-3 text-lg font-semibold tracking-wide text-justify">
                     {projectName}
                   </h3>
 
-                  <div className=" ">
+                  <div className="flex flex-wrap gap-1 font-medium tracking-tight">
+                    {used?.map((use) => (
+                      <small className=" capitalize">{use},</small>
+                    ))}
+                  </div>
+                  <div className="pt-3">
                     <span className=" text-[14px] font-semibold text-rose-600">
                       Live Link :
                     </span>
