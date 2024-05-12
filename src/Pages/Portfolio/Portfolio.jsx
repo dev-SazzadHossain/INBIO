@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import project1 from "../../assets/project1.png";
 import project2 from "../../assets/project3.png";
 import project3 from "../../assets/project4.png";
+import project5 from "../../assets/project5";
 
 const projectList = [
   {
@@ -68,6 +69,14 @@ const projectList = [
       "nodemailer",
     ],
     githubLink: "https://github.com/dev-SazzadHossain/ecommerce_backend",
+  },
+  {
+    image: project5,
+    projectName: "Comedy",
+    used: ["html", "css", "js"],
+    liveLink: "https://voluble-flan-9f5829.netlify.app/",
+    githubLink:
+      " https://github.com/dev-SazzadHossain/Blog-JS/tree/main/Assignment_6",
   },
 ];
 
