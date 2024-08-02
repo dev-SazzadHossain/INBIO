@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { MdOutlineMenuOpen } from "react-icons/md";
 import { MdOutlineRestaurantMenu } from "react-icons/md";
 import { NavLink, useLocation } from "react-router-dom";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/remove_bg.png";
 import cv from "../../assets/Md-Sazzad-Hossain-FlowCV-Resume-20240311.pdf";
 import { motion } from "framer-motion";
 

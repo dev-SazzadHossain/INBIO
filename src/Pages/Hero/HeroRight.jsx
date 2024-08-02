@@ -1,10 +1,10 @@
 import React from "react";
-import logo from "../../assets/banner-01.png";
+import logo from "../../assets/remove_bg.png";
 import { motion } from "framer-motion";
 
 const initialState = {
   skew: {
-    skewY: "-20deg",
+    skewY: "-5deg",
   },
   hover: {
     skewY: 0,

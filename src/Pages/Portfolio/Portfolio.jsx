@@ -5,6 +5,8 @@ import project1 from "../../assets/project1.png";
 import project2 from "../../assets/project3.png";
 import project3 from "../../assets/project4.png";
 import project5 from "../../assets/project5.png";
+import project6 from "../../assets/project6.png";
+import donation from "../../assets/donation_project.png";
 
 const projectList = [
   {
@@ -77,6 +79,29 @@ const projectList = [
     liveLink: "https://voluble-flan-9f5829.netlify.app/",
     githubLink:
       " https://github.com/dev-SazzadHossain/Blog-JS/tree/main/Assignment_6",
+  },
+  {
+    image: project6,
+    projectName: "Blog Site",
+    used: [
+      "React",
+      "React-router-dom",
+      "react-toolkit",
+      "React Snackbars",
+      "Redux",
+      "Redux Thunk",
+      "Json Server",
+    ],
+    liveLink:
+      "https://664443d71c0ea34dd9803783--strong-pasca-0d6343.netlify.app/",
+    githubLink: "https://github.com/dev-SazzadHossain/Redux_thunk",
+  },
+  {
+    image: donation,
+    projectName: "Donation Campaign",
+    used: ["React", "React-router-dom", "React apexcharts", "tailwind css"],
+    liveLink: "https://donationcampaignph.netlify.app/",
+    githubLink: "https://github.com/dev-SazzadHossain/Donation-campaign",
   },
 ];
 
